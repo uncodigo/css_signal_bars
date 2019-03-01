@@ -1,0 +1,41 @@
+/* Autor:Juan Molina
+   Instagram: @juan_molina  @uncodigo_ 
+*/
+
+body {
+    margin:  0;
+    padding: 0;
+    background-color: #333333;
+}
+
+.container {
+    margin: 20px auto;
+    padding:  10px;
+    border-radius: 5px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+}
+
+.bar {
+    display: inline-block;
+    width: 25px;
+    border: 1px solid rgb(27, 192, 68);
+    vertical-align: bottom;
+    border-radius: 5px;
+    margin-top: 80px;
+   animation: status 3s linear infinite;
+}
+
+.bar:nth-child(1) {height: 20px; animation-delay: 0.4s;}
+.bar:nth-child(2) {height: 40px; animation-delay: 0.6s;}
+.bar:nth-child(3){height: 60px; animation-delay: 0.8s;}
+.bar:nth-child(4) {height: 80px; animation-delay: 1s;}
+.bar:nth-child(5){height: 100px; animation-delay: 1.2s;}
+
+@keyframes status {
+    0% {background-color:rgb(27, 192, 68);}
+}
+
+
+
